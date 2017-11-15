@@ -1,0 +1,101 @@
+sedtrans   = 0
+morphology = 0
+
+----------------------------------------------------
+
+Grid input
+nx         = 50
+ny         = 125
+vardx      = 1
+xfile      = x.txt
+yfile      = y.txt
+xori       = 0.
+yori       = 0.
+alfa       = 0
+depfile    = z.txt
+posdwn     = -1
+thetanaut  = 1
+thetamin   = 90. 
+thetamax   = 270
+dtheta     = 10.
+
+----------------------------------------------------
+
+Numerics input
+CFL        = 0.9
+eps        = 0.01
+back       = 1
+
+----------------------------------------------------
+
+Time input
+tstart     = 0
+tintg      = 2
+tintm      = 1800. 
+tstop      = 1800.
+taper      = 0
+nt         = 12000
+
+----------------------------------------------------
+
+General constants
+rho        = 1025 
+g          = 9.81 
+
+----------------------------------------------------
+
+Boundary condition options
+tideloc    = 0
+zs0        = 0.5
+instat     = 1
+dir0       = 180
+Hrms       = 2.0
+Tm01       = 10.0
+Tlong      = 80
+fw  =0.3
+
+----------------------------------------------------
+
+Wave calculation options
+break      = 3
+wci        = 0
+roller     = 1
+beta       = 0.1
+gamma      = 0.45
+gammax     = 2.
+alpha      = 1.
+delta      = 0.0 
+n          = 15.
+scheme     = upwind_2
+
+----------------------------------------------------
+
+Flow calculation options
+nuh        = 0.1
+nuhv       = 0.0
+hmin       = 0.1
+C          = 65.
+umin       = 0.0
+
+----------------------------------------------------
+
+Output options
+outputformat   = netcdf
+nglobalvar   = 11
+D 
+DR
+E
+Fx
+Fy
+H
+u
+v
+thetamean
+zb
+zs
+
+nmeanvar   = 4
+H
+u
+v
+zs
