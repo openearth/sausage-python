@@ -2,3 +2,4 @@
 *.nc
 *.egg-info
 *.bak
+*.log

@@ -1,0 +1,13 @@
+Landlab
+=======
+
+- Focus on simple, grids, models and boundary conditions
+- No grid generators
+- Plotting routines
+- Complex structure (load methods from modules?!)
+
+Sausage
+-------
+- netCDF/CF based
+- Focus on complex grids, models and boundary conditions
+- Grid generators
